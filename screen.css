@@ -6,6 +6,8 @@ body { font-family: 'Open Sans', sans-serif; font-size: 16px; font-weight: 300; 
 
 #page { max-width: 1200px; margin: 0 auto; position: relative; }
 
+
+
 /* Text */
 
 h1 { margin: 0 1em 0; font: 2.8em; font-weight: 700; }
@@ -17,6 +19,11 @@ p { margin: 0 0 1em 0; }
 
 a { color: #007eff; }
 a:visited {color: #65b1ff;}
+
+a.btn { font-size: 1em; text-decoration: none; color: #0D0300; border: 1px solid #0D0300; padding: 4px 15px; transition: background-color .5s; }
+a.btn:hover { background-color: rgba(0,0,0,.3) }
+
+
 
 /* Header */
 
@@ -32,3 +39,42 @@ header a.logo {
 
  header div.hero { position: absolute; width: 42% top: 130px; left: 15%; }
  header div.hero { line-height: 3em; margin: 0 0 30px 0; }
+
+
+
+/* Section - All */
+
+section { padding: 0 30px; }
+section::after { content: ''; display: block; clear: both; }
+
+
+
+/* Section - View Saved Recipes */
+
+section.View_Saved_Recipes { margin-top: 20px; margin-bottom: 30px; padding: 0 }
+section.View_Saved_Recipes aside { width: 25%; float: left; text-align: center; }
+
+section.View_Saved_Recipes .content { margin: 15px; background: no-repeat center top; background-size: 75px 75px; padding-top: 85px }
+
+section.View_Saved_Recipes aside h2 a { color: #000; text-decoration: none; }
+section.View_Saved_Recipes aside h2 a:hover { text-decoration: underline; }
+
+section.View_Saved_Recipes aside .content.all { background-image: url(icon_all.jpg); }
+section.View_Saved_Recipes aside .content.cuisine { background-image: url(icon_cuisine.jpg) }
+section.View_Saved_Recipes aside .content.course { background-image: url(icon_course.jpg); }
+section.View_Saved_Recipes aside .content.favourite { background-image: url(icon_favourite.jpg); }
+
+
+
+ /* Section - Add New Recipe */
+
+section.Add_New_Recipe { background-color: #979A9A; padding-top: 30px; padding-bottom: 30px; color: #fff }
+
+section.Add_New_Recipe article { padding: 0 20px 0 515px; background: url(Add_New_Recipe.jpg) no-repeat 0 5px; min-height: 220px; }
+
+
+ 
+ /* Section - Browse Favourite Sites */
+
+
+
