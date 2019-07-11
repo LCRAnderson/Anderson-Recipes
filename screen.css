@@ -72,8 +72,12 @@ section.View_Saved_Recipes aside .content.favourite { background-image: url(icon
 
 section.Add_New_Recipe { background-color: #979A9A; padding-top: 30px; padding-bottom: 30px; color: #fff }
 
-section.Add_New_Recipe article div.text { margin-left: 50% }
-section.Add_New_Recipe article div.image { background-image: url(Add_New_Recipe.jpg) } 
+section.Add_New_Recipe article div.text { width: 50%; display: inline-block;}
+section.Add_New_Recipe article div.image { 
+	float: left; width:50%; 
+	background-image: url(Add_New_Recipe.jpg);
+	height: 200px;
+ } 
 
 
  
