@@ -1,2 +1,2 @@
 # Anderson-Recipes
- Recipe Storing App.
+ Recipe Storing App - my first app.
