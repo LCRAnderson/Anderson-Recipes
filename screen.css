@@ -68,10 +68,11 @@ section.View_Saved_Recipes aside .content.favourite { background-image: url(icon
 
  /* Section - Add New Recipe */
 
+
 section.Add_New_Recipe { background-color: #979A9A; padding-top: 30px; padding-bottom: 30px; color: #fff }
 
-section.Add_New_Recipe article.text {}
-section.Add_New_Recipe article.image {}
+/* section.Add_New_Recipe article.text {}
+section.Add_New_Recipe article.image {} */
 
 
  
