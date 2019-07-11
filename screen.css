@@ -60,7 +60,7 @@ section.View_Saved_Recipes aside h2 a { color: #000; text-decoration: none; }
 section.View_Saved_Recipes aside h2 a:hover { text-decoration: underline; }
 
 section.View_Saved_Recipes aside .content.all { background-image: url(icon_all.jpg); }
-section.View_Saved_Recipes aside .content.cuisine { background-image: url(icon_cuisine.jpg) }
+section.View_Saved_Recipes aside .content.cuisine { background-image: url(icon_cuisine.jpg); }
 section.View_Saved_Recipes aside .content.course { background-image: url(icon_course.jpg); }
 section.View_Saved_Recipes aside .content.favourite { background-image: url(icon_favourite.jpg); }
 
@@ -76,5 +76,16 @@ section.Add_New_Recipe article { padding: 0 20px 0 515px; background: url(Add_Ne
  
  /* Section - Browse Favourite Sites */
 
+section.Browse_Favourite_Sites { margin-top: 20px; margin-bottom: 30px; padding: 0 }
+section.Browse_Favourite_Sites aside { width: 33%; float: left; text-align: center; }
 
+section.Browse_Favourite_Sites .content { margin: 15px; background: no-repeat center top; background-size: 75px 75px; padding-top: 85px }
 
+section.Browse_Favourite_Sites aside h2 a { color: #000; text-decoration: none; }
+section.Browse_Favourite_Sites aside h2 a:hover { text-decoration: underline; }
+
+section.Browse_Favourite_Sites aside .content.bbc { background-image: url(bbcgoodfood.jpg); }
+section.Browse_Favourite_Sites aside .content.olive { background-image: url(olivemagazine.jpg); }
+section.Browse_Favourite_Sites aside .content.cookie { background-image: url(cookieandkate.jpg); }
+
+/* section.Browse_Favourite_Sites a { margin-left: 50% } */
